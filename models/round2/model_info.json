@@ -1,0 +1,28 @@
+{
+  "model": "segformer_b2",
+  "round": 2,
+  "classes": [
+    "Trees (incl. mangroves)",
+    "Grassland / shrubland",
+    "Cropland",
+    "Built-up",
+    "Bare / sparse vegetation",
+    "Permanent water",
+    "Herbaceous wetland"
+  ],
+  "colors": [
+    "#006400",
+    "#ffff4c",
+    "#f096ff",
+    "#fa0000",
+    "#b4b4b4",
+    "#0064c8",
+    "#0096a0"
+  ],
+  "ignore": 255,
+  "patch_size": 256,
+  "needs_keras_hub": true,
+  "validation_miou": 0.36149410533438914,
+  "test_miou": 0.42634910074629223,
+  "test_oa": 0.691440776542381
+}

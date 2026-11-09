@@ -1,0 +1,1528 @@
+{
+  "settings": {
+    "year": 2021,
+    "months": [
+      1,
+      4,
+      7,
+      10
+    ],
+    "buffer_metres": 7700,
+    "min_coverage": 90,
+    "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track",
+    "seed": 2026,
+    "per_continent": 5,
+    "draws_per_continent": 80,
+    "boxes": {
+      "Europe": [
+        [
+          -10,
+          34,
+          37.5,
+          70
+        ],
+        [
+          34,
+          60,
+          55,
+          70
+        ]
+      ],
+      "Asia": [
+        [
+          34,
+          145,
+          12,
+          55
+        ],
+        [
+          95,
+          141,
+          -9,
+          12
+        ]
+      ],
+      "Africa": [
+        [
+          -17.5,
+          34,
+          -35,
+          37.5
+        ],
+        [
+          34,
+          51.5,
+          -27,
+          12
+        ]
+      ],
+      "North America": [
+        [
+          -125,
+          -60,
+          15,
+          60
+        ]
+      ],
+      "South America": [
+        [
+          -82,
+          -34,
+          -56,
+          12.5
+        ]
+      ],
+      "Oceania": [
+        [
+          113,
+          154,
+          -44,
+          -10
+        ],
+        [
+          166,
+          179,
+          -48,
+          -34
+        ]
+      ]
+    },
+    "min_land_percent": 50,
+    "min_distance_km": 50
+  },
+  "candidates": [
+    {
+      "name": "Europe_000",
+      "continent": "Europe",
+      "lon": 18.1562,
+      "lat": 49.7644,
+      "split": "holdout",
+      "land_share": 97.7,
+      "direction": "DESCENDING",
+      "orbit": 51,
+      "scene_counts": [
+        5,
+        5,
+        5,
+        8
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Europe_001",
+      "continent": "Europe",
+      "lon": 5.6164,
+      "lat": 60.5015,
+      "split": "holdout",
+      "land_share": 81.0,
+      "direction": "ASCENDING",
+      "orbit": 117,
+      "scene_counts": [
+        5,
+        8,
+        7,
+        7
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Europe_002",
+      "continent": "Europe",
+      "lon": 38.6112,
+      "lat": 63.8755,
+      "split": "holdout",
+      "land_share": 98.9,
+      "direction": "ASCENDING",
+      "orbit": 72,
+      "scene_counts": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Europe_003",
+      "continent": "Europe",
+      "lon": 32.5463,
+      "lat": 65.947,
+      "split": "holdout",
+      "land_share": 89.4,
+      "direction": "ASCENDING",
+      "orbit": 43,
+      "scene_counts": [
+        5,
+        5,
+        5,
+        6
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Europe_004",
+      "continent": "Europe",
+      "lon": 23.1202,
+      "lat": 51.1912,
+      "split": "holdout",
+      "land_share": 99.3,
+      "direction": "DESCENDING",
+      "orbit": 80,
+      "scene_counts": [
+        6,
+        5,
+        5,
+        5
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Asia_000",
+      "continent": "Asia",
+      "lon": 134.1835,
+      "lat": 40.7846,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "Asia_001",
+      "continent": "Asia",
+      "lon": 126.6917,
+      "lat": 28.8136,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "Asia_002",
+      "continent": "Asia",
+      "lon": 89.1857,
+      "lat": 28.9229,
+      "split": "holdout",
+      "land_share": 99.9,
+      "direction": "DESCENDING",
+      "orbit": 48,
+      "scene_counts": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Asia_003",
+      "continent": "Asia",
+      "lon": 127.2733,
+      "lat": 35.9797,
+      "split": "holdout",
+      "land_share": 97.4,
+      "direction": "ASCENDING",
+      "orbit": 127,
+      "scene_counts": [
+        2,
+        3,
+        2,
+        3
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Asia_004",
+      "continent": "Asia",
+      "lon": 135.562,
+      "lat": 2.4635,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "Asia_005",
+      "continent": "Asia",
+      "lon": 116.94,
+      "lat": 45.8659,
+      "split": "holdout",
+      "land_share": 100,
+      "direction": "ASCENDING",
+      "orbit": 69,
+      "scene_counts": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Asia_006",
+      "continent": "Asia",
+      "lon": 68.2233,
+      "lat": 19.0104,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "Asia_007",
+      "continent": "Asia",
+      "lon": 77.2484,
+      "lat": 41.6974,
+      "split": "holdout",
+      "land_share": 98.7,
+      "direction": "ASCENDING",
+      "orbit": 129,
+      "scene_counts": [
+        2,
+        3,
+        2,
+        3
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Asia_008",
+      "continent": "Asia",
+      "lon": 128.8352,
+      "lat": -0.1107,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "Asia_009",
+      "continent": "Asia",
+      "lon": 60.8922,
+      "lat": 30.1999,
+      "split": "holdout",
+      "land_share": 100,
+      "direction": "ASCENDING",
+      "orbit": 13,
+      "scene_counts": [
+        3,
+        2,
+        3,
+        3
+      ],
+      "coverage_percent": {
+        "month_01": 0.13,
+        "month_04": 0.09,
+        "month_07": 0.07,
+        "month_10": 0.15
+      },
+      "status": "low_coverage",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Asia_010",
+      "continent": "Asia",
+      "lon": 129.4893,
+      "lat": 2.8581,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "Asia_011",
+      "continent": "Asia",
+      "lon": 40.2961,
+      "lat": 48.6469,
+      "split": "holdout",
+      "land_share": 99.8,
+      "direction": "ASCENDING",
+      "orbit": 145,
+      "scene_counts": [
+        4,
+        5,
+        5,
+        5
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Africa_000",
+      "continent": "Africa",
+      "lon": -3.9988,
+      "lat": -31.1308,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "Africa_001",
+      "continent": "Africa",
+      "lon": -9.5988,
+      "lat": 4.5315,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "Africa_002",
+      "continent": "Africa",
+      "lon": -17.248,
+      "lat": 4.0746,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "Africa_003",
+      "continent": "Africa",
+      "lon": 30.0172,
+      "lat": 28.5175,
+      "split": "holdout",
+      "land_share": 100,
+      "direction": "ASCENDING",
+      "orbit": 131,
+      "scene_counts": [
+        5,
+        5,
+        4,
+        6
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Africa_004",
+      "continent": "Africa",
+      "lon": 20.8074,
+      "lat": -22.4404,
+      "split": "holdout",
+      "land_share": 100,
+      "direction": "ASCENDING",
+      "orbit": 160,
+      "scene_counts": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Africa_005",
+      "continent": "Africa",
+      "lon": 9.1188,
+      "lat": 2.188,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "Africa_006",
+      "continent": "Africa",
+      "lon": 21.1053,
+      "lat": 32.1034,
+      "split": "holdout",
+      "land_share": 100,
+      "direction": "DESCENDING",
+      "orbit": 7,
+      "scene_counts": [
+        5,
+        5,
+        6,
+        5
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Africa_007",
+      "continent": "Africa",
+      "lon": 8.0254,
+      "lat": 13.1985,
+      "split": "holdout",
+      "land_share": 100,
+      "direction": "ASCENDING",
+      "orbit": 132,
+      "scene_counts": [
+        2,
+        3,
+        2,
+        3
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Africa_008",
+      "continent": "Africa",
+      "lon": 20.909,
+      "lat": -32.7109,
+      "split": "holdout",
+      "land_share": 100,
+      "direction": "ASCENDING",
+      "orbit": 58,
+      "scene_counts": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "North_America_000",
+      "continent": "North America",
+      "lon": -124.2312,
+      "lat": 22.8431,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "North_America_001",
+      "continent": "North America",
+      "lon": -81.6805,
+      "lat": 42.3018,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "North_America_002",
+      "continent": "North America",
+      "lon": -111.9329,
+      "lat": 38.8372,
+      "split": "holdout",
+      "land_share": 99.9,
+      "direction": "DESCENDING",
+      "orbit": 27,
+      "scene_counts": [
+        3,
+        2,
+        3,
+        3
+      ],
+      "coverage_percent": {
+        "month_01": 98.94,
+        "month_04": 98.91,
+        "month_07": 98.85,
+        "month_10": 98.82
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "North_America_003",
+      "continent": "North America",
+      "lon": -61.989,
+      "lat": 50.6735,
+      "split": "holdout",
+      "land_share": 88.8,
+      "direction": "ASCENDING",
+      "orbit": 47,
+      "scene_counts": [
+        3,
+        2,
+        3,
+        3
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "North_America_004",
+      "continent": "North America",
+      "lon": -81.1469,
+      "lat": 39.1962,
+      "split": "holdout",
+      "land_share": 99.7,
+      "direction": "ASCENDING",
+      "orbit": 150,
+      "scene_counts": [
+        2,
+        3,
+        2,
+        3
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "North_America_005",
+      "continent": "North America",
+      "lon": -124.504,
+      "lat": 43.8179,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "North_America_006",
+      "continent": "North America",
+      "lon": -115.2972,
+      "lat": 24.5422,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "North_America_007",
+      "continent": "North America",
+      "lon": -105.9632,
+      "lat": 43.6775,
+      "split": "holdout",
+      "land_share": 100.0,
+      "direction": "ASCENDING",
+      "orbit": 151,
+      "scene_counts": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "North_America_008",
+      "continent": "North America",
+      "lon": -91.2393,
+      "lat": 22.1987,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "North_America_009",
+      "continent": "North America",
+      "lon": -102.6305,
+      "lat": 16.8416,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "North_America_010",
+      "continent": "North America",
+      "lon": -112.0564,
+      "lat": 36.6689,
+      "split": "holdout",
+      "land_share": 100,
+      "direction": "ASCENDING",
+      "orbit": 20,
+      "scene_counts": [
+        4,
+        6,
+        4,
+        4
+      ],
+      "coverage_percent": {
+        "month_01": 99.99,
+        "month_04": 100,
+        "month_07": 99.99,
+        "month_10": 99.99
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "South_America_000",
+      "continent": "South America",
+      "lon": -79.9008,
+      "lat": 7.7027,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "South_America_001",
+      "continent": "South America",
+      "lon": -57.4831,
+      "lat": 12.3827,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "South_America_002",
+      "continent": "South America",
+      "lon": -79.5131,
+      "lat": -30.7069,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "South_America_003",
+      "continent": "South America",
+      "lon": -38.825,
+      "lat": -20.0753,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "South_America_004",
+      "continent": "South America",
+      "lon": -52.5783,
+      "lat": -19.7174,
+      "split": "holdout",
+      "land_share": 99.9,
+      "direction": "DESCENDING",
+      "orbit": 170,
+      "scene_counts": [
+        6,
+        6,
+        6,
+        4
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "South_America_005",
+      "continent": "South America",
+      "lon": -44.0454,
+      "lat": -19.5825,
+      "split": "holdout",
+      "land_share": 99.2,
+      "direction": "DESCENDING",
+      "orbit": 155,
+      "scene_counts": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "coverage_percent": {
+        "month_01": 89.59,
+        "month_04": 89.22,
+        "month_07": 89.21,
+        "month_10": 89.38
+      },
+      "status": "low_coverage",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "South_America_006",
+      "continent": "South America",
+      "lon": -57.1741,
+      "lat": 1.0161,
+      "split": "holdout",
+      "land_share": 99.6,
+      "direction": "ASCENDING",
+      "orbit": 90,
+      "scene_counts": [
+        3,
+        2,
+        2,
+        2
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "South_America_007",
+      "continent": "South America",
+      "lon": -57.7505,
+      "lat": -39.5303,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "South_America_008",
+      "continent": "South America",
+      "lon": -57.0313,
+      "lat": -1.8835,
+      "split": "holdout",
+      "land_share": 91.7,
+      "direction": "ASCENDING",
+      "orbit": 90,
+      "scene_counts": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "South_America_009",
+      "continent": "South America",
+      "lon": -53.7764,
+      "lat": -54.1216,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "South_America_010",
+      "continent": "South America",
+      "lon": -46.1914,
+      "lat": -12.5824,
+      "split": "holdout",
+      "land_share": 100,
+      "direction": "DESCENDING",
+      "orbit": 24,
+      "scene_counts": [
+        3,
+        2,
+        3,
+        3
+      ],
+      "coverage_percent": {
+        "month_01": 96.1,
+        "month_04": 96.23,
+        "month_07": 96.83,
+        "month_10": 96.44
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "South_America_011",
+      "continent": "South America",
+      "lon": -35.9365,
+      "lat": -23.8938,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "South_America_012",
+      "continent": "South America",
+      "lon": -57.2577,
+      "lat": -1.8092,
+      "split": "holdout",
+      "land_share": 100,
+      "status": "too_close_to_other_candidate"
+    },
+    {
+      "name": "South_America_013",
+      "continent": "South America",
+      "lon": -65.4388,
+      "lat": 5.5005,
+      "split": "holdout",
+      "land_share": 100.0,
+      "direction": "ASCENDING",
+      "orbit": 33,
+      "scene_counts": [
+        2,
+        3,
+        2,
+        2
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Oceania_000",
+      "continent": "Oceania",
+      "lon": 116.9372,
+      "lat": -30.2789,
+      "split": "holdout",
+      "land_share": 100,
+      "direction": "DESCENDING",
+      "orbit": 163,
+      "scene_counts": [
+        6,
+        4,
+        6,
+        4
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100.0,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Oceania_001",
+      "continent": "Oceania",
+      "lon": 120.2739,
+      "lat": -38.2344,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "Oceania_002",
+      "continent": "Oceania",
+      "lon": 119.6069,
+      "lat": -30.0568,
+      "split": "holdout",
+      "land_share": 100,
+      "direction": "DESCENDING",
+      "orbit": 17,
+      "scene_counts": [
+        2,
+        3,
+        3,
+        2
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Oceania_003",
+      "continent": "Oceania",
+      "lon": 122.0307,
+      "lat": -33.6473,
+      "split": "holdout",
+      "land_share": 99.6,
+      "direction": "DESCENDING",
+      "orbit": 119,
+      "scene_counts": [
+        3,
+        2,
+        3,
+        3
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Oceania_004",
+      "continent": "Oceania",
+      "lon": 114.3592,
+      "lat": -12.1328,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "Oceania_005",
+      "continent": "Oceania",
+      "lon": 114.6591,
+      "lat": -17.368,
+      "split": "holdout",
+      "land_share": 0,
+      "status": "mostly_water"
+    },
+    {
+      "name": "Oceania_006",
+      "continent": "Oceania",
+      "lon": 147.85,
+      "lat": -27.4884,
+      "split": "holdout",
+      "land_share": 100,
+      "direction": "ASCENDING",
+      "orbit": 9,
+      "scene_counts": [
+        3,
+        2,
+        3,
+        3
+      ],
+      "coverage_percent": {
+        "month_01": 0.1,
+        "month_04": 0.13,
+        "month_07": 0.15,
+        "month_10": 0.09
+      },
+      "status": "low_coverage",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Oceania_007",
+      "continent": "Oceania",
+      "lon": 174.9823,
+      "lat": -41.2213,
+      "split": "holdout",
+      "land_share": 96.7,
+      "direction": "ASCENDING",
+      "orbit": 154,
+      "scene_counts": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Oceania_008",
+      "continent": "Oceania",
+      "lon": 129.9438,
+      "lat": -14.6083,
+      "split": "holdout",
+      "land_share": 100,
+      "direction": "DESCENDING",
+      "orbit": 148,
+      "scene_counts": [
+        2,
+        3,
+        2,
+        3
+      ],
+      "coverage_percent": {
+        "month_01": 21.02,
+        "month_04": 21.2,
+        "month_07": 20.8,
+        "month_10": 21.82
+      },
+      "status": "low_coverage",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    },
+    {
+      "name": "Oceania_009",
+      "continent": "Oceania",
+      "lon": 133.3,
+      "lat": -28.041,
+      "split": "holdout",
+      "land_share": 100,
+      "direction": "DESCENDING",
+      "orbit": 104,
+      "scene_counts": [
+        3,
+        2,
+        3,
+        3
+      ],
+      "coverage_percent": {
+        "month_01": 100,
+        "month_04": 100,
+        "month_07": 100,
+        "month_10": 100
+      },
+      "status": "accepted",
+      "settings": {
+        "year": 2021,
+        "months": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "buffer_metres": 7700,
+        "min_coverage": 90,
+        "sentinel1": "COPERNICUS/S1_GRD, IW, 10 m, VV + VH, one common track"
+      }
+    }
+  ]
+}

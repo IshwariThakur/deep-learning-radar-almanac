@@ -1,0 +1,50 @@
+{
+  "models": [
+    "segformer_b3",
+    "segformer_b2",
+    "deeplabv3plus_resnet50",
+    "unet_resnet50"
+  ],
+  "tta": "dihedral8",
+  "transforms": [
+    [
+      0,
+      false
+    ],
+    [
+      0,
+      true
+    ],
+    [
+      1,
+      false
+    ],
+    [
+      1,
+      true
+    ],
+    [
+      2,
+      false
+    ],
+    [
+      2,
+      true
+    ],
+    [
+      3,
+      false
+    ],
+    [
+      3,
+      true
+    ]
+  ],
+  "predictions_per_patch": 32,
+  "validation_miou": 0.37888979933612604,
+  "selected_in_02d": "segformer_b3",
+  "validation_miou_selected_alone": 0.36414766819013533,
+  "test_miou": 0.43229530301855307,
+  "test_oa": 0.6989329479358815,
+  "test_miou_selected_alone": 0.4282085850053893
+}

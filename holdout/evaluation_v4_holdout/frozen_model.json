@@ -1,0 +1,11 @@
+{
+  "frozen_at": "2026-11-07T21:34:05+00:00",
+  "files": {
+    "models/round3/inference_choice.json": "c60537db300b2bd06b4f731ebbfd2ed5d983aeaca1fcedb8895d23b3fddbcac5",
+    "models/round3/normalisation.json": "dcef7b7c18280af9319e9846ea86560459a10aa1f3e9325cb283bf0c4eeade7d",
+    "models/round3/deeplabv3plus_resnet50/best.keras": "932fa0226abac6c1bfbfaadc3706dd0628436ef736fd884f1c601e9123a4a552",
+    "models/round3/segformer_b2/best.keras": "97674790b988ec9f046c8424f7a82dc3678f640c6017c4ab1086dfdf2bcc7254",
+    "models/round3/segformer_b3/best.keras": "af5aaee65c9b95dba3254c97962d15266907102b0a0f278a4f023c12f958d8df",
+    "models/round3/unet_resnet50/best.keras": "65db6d50d11e6efab7db7f2e46e8c88ad68a21f2637ba43daab4828f34313f66"
+  }
+}

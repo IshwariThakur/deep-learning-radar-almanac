@@ -1,0 +1,152 @@
+[
+  {
+    "index": 0,
+    "area": "Europe_000",
+    "continent": "Europe"
+  },
+  {
+    "index": 1,
+    "area": "Europe_001",
+    "continent": "Europe"
+  },
+  {
+    "index": 2,
+    "area": "Europe_002",
+    "continent": "Europe"
+  },
+  {
+    "index": 3,
+    "area": "Europe_003",
+    "continent": "Europe"
+  },
+  {
+    "index": 4,
+    "area": "Europe_004",
+    "continent": "Europe"
+  },
+  {
+    "index": 5,
+    "area": "Asia_002",
+    "continent": "Asia"
+  },
+  {
+    "index": 6,
+    "area": "Asia_003",
+    "continent": "Asia"
+  },
+  {
+    "index": 7,
+    "area": "Asia_005",
+    "continent": "Asia"
+  },
+  {
+    "index": 8,
+    "area": "Asia_007",
+    "continent": "Asia"
+  },
+  {
+    "index": 9,
+    "area": "Asia_011",
+    "continent": "Asia"
+  },
+  {
+    "index": 10,
+    "area": "Africa_003",
+    "continent": "Africa"
+  },
+  {
+    "index": 11,
+    "area": "Africa_004",
+    "continent": "Africa"
+  },
+  {
+    "index": 12,
+    "area": "Africa_006",
+    "continent": "Africa"
+  },
+  {
+    "index": 13,
+    "area": "Africa_007",
+    "continent": "Africa"
+  },
+  {
+    "index": 14,
+    "area": "Africa_008",
+    "continent": "Africa"
+  },
+  {
+    "index": 15,
+    "area": "North_America_002",
+    "continent": "North America"
+  },
+  {
+    "index": 16,
+    "area": "North_America_003",
+    "continent": "North America"
+  },
+  {
+    "index": 17,
+    "area": "North_America_004",
+    "continent": "North America"
+  },
+  {
+    "index": 18,
+    "area": "North_America_007",
+    "continent": "North America"
+  },
+  {
+    "index": 19,
+    "area": "North_America_010",
+    "continent": "North America"
+  },
+  {
+    "index": 20,
+    "area": "South_America_004",
+    "continent": "South America"
+  },
+  {
+    "index": 21,
+    "area": "South_America_006",
+    "continent": "South America"
+  },
+  {
+    "index": 22,
+    "area": "South_America_008",
+    "continent": "South America"
+  },
+  {
+    "index": 23,
+    "area": "South_America_010",
+    "continent": "South America"
+  },
+  {
+    "index": 24,
+    "area": "South_America_013",
+    "continent": "South America"
+  },
+  {
+    "index": 25,
+    "area": "Oceania_000",
+    "continent": "Oceania"
+  },
+  {
+    "index": 26,
+    "area": "Oceania_002",
+    "continent": "Oceania"
+  },
+  {
+    "index": 27,
+    "area": "Oceania_003",
+    "continent": "Oceania"
+  },
+  {
+    "index": 28,
+    "area": "Oceania_007",
+    "continent": "Oceania"
+  },
+  {
+    "index": 29,
+    "area": "Oceania_009",
+    "continent": "Oceania"
+  }
+]

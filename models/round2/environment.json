@@ -1,0 +1,11 @@
+{
+  "python": "3.11.13",
+  "gpu": [
+    "/physical_device:GPU:0"
+  ],
+  "mixed_precision": true,
+  "tensorflow": "2.20.0",
+  "keras": "3.11.2",
+  "keras-hub": "0.24.0",
+  "numpy": "2.3.2"
+}

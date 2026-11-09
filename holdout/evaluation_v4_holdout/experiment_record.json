@@ -1,0 +1,205 @@
+{
+  "plan_version": "v4_holdout",
+  "created": "2026-11-08T08:48:16+00:00",
+  "classes": [
+    "Trees (incl. mangroves)",
+    "Grassland / shrubland",
+    "Cropland",
+    "Built-up",
+    "Bare / sparse vegetation",
+    "Permanent water",
+    "Herbaceous wetland"
+  ],
+  "ignore": 255,
+  "worldcover_to_class": {
+    "10": 0,
+    "95": 0,
+    "30": 1,
+    "20": 1,
+    "100": 1,
+    "40": 2,
+    "50": 3,
+    "60": 4,
+    "80": 5,
+    "90": 6
+  },
+  "sampling": {
+    "seed": 2026,
+    "per_continent": 5,
+    "boxes": {
+      "Europe": [
+        [
+          -10,
+          34,
+          37.5,
+          70
+        ],
+        [
+          34,
+          60,
+          55,
+          70
+        ]
+      ],
+      "Asia": [
+        [
+          34,
+          145,
+          12,
+          55
+        ],
+        [
+          95,
+          141,
+          -9,
+          12
+        ]
+      ],
+      "Africa": [
+        [
+          -17.5,
+          34,
+          -35,
+          37.5
+        ],
+        [
+          34,
+          51.5,
+          -27,
+          12
+        ]
+      ],
+      "North America": [
+        [
+          -125,
+          -60,
+          15,
+          60
+        ]
+      ],
+      "South America": [
+        [
+          -82,
+          -34,
+          -56,
+          12.5
+        ]
+      ],
+      "Oceania": [
+        [
+          113,
+          154,
+          -44,
+          -10
+        ],
+        [
+          166,
+          179,
+          -48,
+          -34
+        ]
+      ]
+    }
+  },
+  "frozen_model": {
+    "frozen_at": "2026-11-07T21:34:05+00:00",
+    "files": {
+      "models/round3/inference_choice.json": "c60537db300b2bd06b4f731ebbfd2ed5d983aeaca1fcedb8895d23b3fddbcac5",
+      "models/round3/normalisation.json": "dcef7b7c18280af9319e9846ea86560459a10aa1f3e9325cb283bf0c4eeade7d",
+      "models/round3/deeplabv3plus_resnet50/best.keras": "932fa0226abac6c1bfbfaadc3706dd0628436ef736fd884f1c601e9123a4a552",
+      "models/round3/segformer_b2/best.keras": "97674790b988ec9f046c8424f7a82dc3678f640c6017c4ab1086dfdf2bcc7254",
+      "models/round3/segformer_b3/best.keras": "af5aaee65c9b95dba3254c97962d15266907102b0a0f278a4f023c12f958d8df",
+      "models/round3/unet_resnet50/best.keras": "65db6d50d11e6efab7db7f2e46e8c88ad68a21f2637ba43daab4828f34313f66"
+    }
+  },
+  "final_setting": {
+    "models": [
+      "segformer_b3",
+      "segformer_b2",
+      "deeplabv3plus_resnet50",
+      "unet_resnet50"
+    ],
+    "transforms": [
+      [
+        0,
+        false
+      ],
+      [
+        0,
+        true
+      ],
+      [
+        1,
+        false
+      ],
+      [
+        1,
+        true
+      ],
+      [
+        2,
+        false
+      ],
+      [
+        2,
+        true
+      ],
+      [
+        3,
+        false
+      ],
+      [
+        3,
+        true
+      ]
+    ]
+  },
+  "normalisation": {
+    "channels": [
+      "VV",
+      "VH",
+      "VV-VH"
+    ],
+    "add_ratio": true,
+    "clip_low": [
+      -24.359375,
+      -30.578125
+    ],
+    "clip_high": [
+      6.15625,
+      -2.798828125
+    ],
+    "mean": [
+      -9.774000310729928,
+      -17.149017406414536,
+      7.375017095684774
+    ],
+    "std": [
+      5.174488132506035,
+      5.372302612290036,
+      3.096113475827004
+    ],
+    "patches": 7538
+  },
+  "environment": {
+    "tensorflow": "2.20.0",
+    "keras": "3.11.2",
+    "keras_hub": "0.24.0",
+    "numpy": "2.3.2",
+    "gpu": [
+      "/physical_device:GPU:0"
+    ]
+  },
+  "files_sha256": {
+    "holdout/patches_v4_holdout/holdout_x.npy": "dabdbbecfb1b7386f0104d8fb0c1e60f1d44dec9fafe9400429f562a370fcfe0",
+    "holdout/patches_v4_holdout/holdout_y.npy": "5abc5f7486d43388fba5d9c015a4b344b27a162b6345bd2a638a6b8e694be8eb",
+    "holdout/patches_v4_holdout/holdout_meta.csv": "1db71cb602240740a85118980739a0d0e9c111dcacfedb48621a4af047315265",
+    "holdout/patches_v4_holdout/classes.json": "3b45126d88fccdb4c224e64dbc8ef1792dc1a039585a5fe48cd8938455957469",
+    "holdout/config/accepted_v4_holdout.json": "cb54f211f62063e5c175d822e0bd49cc8317b5238b9449a77bac2b6003773796",
+    "holdout/config/candidates_v4_holdout.json": "e5d24749e8fda2b0653aa066d4ea1df596139bad6764e272aad473969fb9671e",
+    "holdout/config/checked_v4_holdout.json": "5e11042a6a2c5171be711123614c9337b25876f06aee5d2f0e1eaf3d82d88575",
+    "holdout/config/patches_v4_holdout.json": "5de3c92599e19c6eff4922afc3d1aed859e334576349e7761e9caf617593ba4a",
+    "01d_holdout_random_areas.ipynb": "0351c9525ce5ea3859144261da7ee2f6e64bca81294ac1cd1549798e7f62a957",
+    "02c_tta_and_ensemble.ipynb": "7728a57a9946e08e803b1d87c8b144713a9fefde33faf0269b4416affcd9249c"
+  }
+}

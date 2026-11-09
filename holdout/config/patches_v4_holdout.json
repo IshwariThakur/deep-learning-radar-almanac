@@ -1,0 +1,156 @@
+{
+  "areas": 30,
+  "patches": 4072,
+  "per_area": {
+    "Europe_000": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "Europe_001": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "Europe_002": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "Europe_003": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "Europe_004": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "Asia_002": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "Asia_003": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "Asia_005": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "Asia_007": {
+      "kept": 112,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 32
+    },
+    "Asia_011": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "Africa_003": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "Africa_004": {
+      "kept": 120,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "Africa_006": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "Africa_007": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "Africa_008": {
+      "kept": 120,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "North_America_002": {
+      "kept": 131,
+      "skipped_missing_radar": 13,
+      "skipped_few_labels": 0
+    },
+    "North_America_003": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "North_America_004": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "North_America_007": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "North_America_010": {
+      "kept": 123,
+      "skipped_missing_radar": 21,
+      "skipped_few_labels": 0
+    },
+    "South_America_004": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "South_America_006": {
+      "kept": 100,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "South_America_008": {
+      "kept": 100,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "South_America_010": {
+      "kept": 128,
+      "skipped_missing_radar": 16,
+      "skipped_few_labels": 0
+    },
+    "South_America_013": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "Oceania_000": {
+      "kept": 114,
+      "skipped_missing_radar": 6,
+      "skipped_few_labels": 0
+    },
+    "Oceania_002": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "Oceania_003": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "Oceania_007": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    },
+    "Oceania_009": {
+      "kept": 144,
+      "skipped_missing_radar": 0,
+      "skipped_few_labels": 0
+    }
+  }
+}

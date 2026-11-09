@@ -1,0 +1,692 @@
+[
+  {
+    "name": "Europe_000",
+    "continent": "Europe",
+    "lon": 18.1562,
+    "lat": 49.7644,
+    "split": "holdout",
+    "land_share": 97.7,
+    "direction": "DESCENDING",
+    "orbit": 51,
+    "scene_counts": [
+      5,
+      5,
+      5,
+      8
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Europe_001",
+    "continent": "Europe",
+    "lon": 5.6164,
+    "lat": 60.5015,
+    "split": "holdout",
+    "land_share": 81.0,
+    "direction": "ASCENDING",
+    "orbit": 117,
+    "scene_counts": [
+      5,
+      8,
+      7,
+      7
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Europe_002",
+    "continent": "Europe",
+    "lon": 38.6112,
+    "lat": 63.8755,
+    "split": "holdout",
+    "land_share": 98.9,
+    "direction": "ASCENDING",
+    "orbit": 72,
+    "scene_counts": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Europe_003",
+    "continent": "Europe",
+    "lon": 32.5463,
+    "lat": 65.947,
+    "split": "holdout",
+    "land_share": 89.4,
+    "direction": "ASCENDING",
+    "orbit": 43,
+    "scene_counts": [
+      5,
+      5,
+      5,
+      6
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Europe_004",
+    "continent": "Europe",
+    "lon": 23.1202,
+    "lat": 51.1912,
+    "split": "holdout",
+    "land_share": 99.3,
+    "direction": "DESCENDING",
+    "orbit": 80,
+    "scene_counts": [
+      6,
+      5,
+      5,
+      5
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Asia_002",
+    "continent": "Asia",
+    "lon": 89.1857,
+    "lat": 28.9229,
+    "split": "holdout",
+    "land_share": 99.9,
+    "direction": "DESCENDING",
+    "orbit": 48,
+    "scene_counts": [
+      3,
+      2,
+      3,
+      2
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Asia_003",
+    "continent": "Asia",
+    "lon": 127.2733,
+    "lat": 35.9797,
+    "split": "holdout",
+    "land_share": 97.4,
+    "direction": "ASCENDING",
+    "orbit": 127,
+    "scene_counts": [
+      2,
+      3,
+      2,
+      3
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Asia_005",
+    "continent": "Asia",
+    "lon": 116.94,
+    "lat": 45.8659,
+    "split": "holdout",
+    "land_share": 100,
+    "direction": "ASCENDING",
+    "orbit": 69,
+    "scene_counts": [
+      3,
+      2,
+      3,
+      2
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Asia_007",
+    "continent": "Asia",
+    "lon": 77.2484,
+    "lat": 41.6974,
+    "split": "holdout",
+    "land_share": 98.7,
+    "direction": "ASCENDING",
+    "orbit": 129,
+    "scene_counts": [
+      2,
+      3,
+      2,
+      3
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Asia_011",
+    "continent": "Asia",
+    "lon": 40.2961,
+    "lat": 48.6469,
+    "split": "holdout",
+    "land_share": 99.8,
+    "direction": "ASCENDING",
+    "orbit": 145,
+    "scene_counts": [
+      4,
+      5,
+      5,
+      5
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Africa_003",
+    "continent": "Africa",
+    "lon": 30.0172,
+    "lat": 28.5175,
+    "split": "holdout",
+    "land_share": 100,
+    "direction": "ASCENDING",
+    "orbit": 131,
+    "scene_counts": [
+      5,
+      5,
+      4,
+      6
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Africa_004",
+    "continent": "Africa",
+    "lon": 20.8074,
+    "lat": -22.4404,
+    "split": "holdout",
+    "land_share": 100,
+    "direction": "ASCENDING",
+    "orbit": 160,
+    "scene_counts": [
+      3,
+      2,
+      3,
+      2
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Africa_006",
+    "continent": "Africa",
+    "lon": 21.1053,
+    "lat": 32.1034,
+    "split": "holdout",
+    "land_share": 100,
+    "direction": "DESCENDING",
+    "orbit": 7,
+    "scene_counts": [
+      5,
+      5,
+      6,
+      5
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Africa_007",
+    "continent": "Africa",
+    "lon": 8.0254,
+    "lat": 13.1985,
+    "split": "holdout",
+    "land_share": 100,
+    "direction": "ASCENDING",
+    "orbit": 132,
+    "scene_counts": [
+      2,
+      3,
+      2,
+      3
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Africa_008",
+    "continent": "Africa",
+    "lon": 20.909,
+    "lat": -32.7109,
+    "split": "holdout",
+    "land_share": 100,
+    "direction": "ASCENDING",
+    "orbit": 58,
+    "scene_counts": [
+      3,
+      2,
+      3,
+      2
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "North_America_002",
+    "continent": "North America",
+    "lon": -111.9329,
+    "lat": 38.8372,
+    "split": "holdout",
+    "land_share": 99.9,
+    "direction": "DESCENDING",
+    "orbit": 27,
+    "scene_counts": [
+      3,
+      2,
+      3,
+      3
+    ],
+    "coverage_percent": {
+      "month_01": 98.94,
+      "month_04": 98.91,
+      "month_07": 98.85,
+      "month_10": 98.82
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "North_America_003",
+    "continent": "North America",
+    "lon": -61.989,
+    "lat": 50.6735,
+    "split": "holdout",
+    "land_share": 88.8,
+    "direction": "ASCENDING",
+    "orbit": 47,
+    "scene_counts": [
+      3,
+      2,
+      3,
+      3
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "North_America_004",
+    "continent": "North America",
+    "lon": -81.1469,
+    "lat": 39.1962,
+    "split": "holdout",
+    "land_share": 99.7,
+    "direction": "ASCENDING",
+    "orbit": 150,
+    "scene_counts": [
+      2,
+      3,
+      2,
+      3
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "North_America_007",
+    "continent": "North America",
+    "lon": -105.9632,
+    "lat": 43.6775,
+    "split": "holdout",
+    "land_share": 100.0,
+    "direction": "ASCENDING",
+    "orbit": 151,
+    "scene_counts": [
+      3,
+      2,
+      3,
+      2
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "North_America_010",
+    "continent": "North America",
+    "lon": -112.0564,
+    "lat": 36.6689,
+    "split": "holdout",
+    "land_share": 100,
+    "direction": "ASCENDING",
+    "orbit": 20,
+    "scene_counts": [
+      4,
+      6,
+      4,
+      4
+    ],
+    "coverage_percent": {
+      "month_01": 99.99,
+      "month_04": 100,
+      "month_07": 99.99,
+      "month_10": 99.99
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "South_America_004",
+    "continent": "South America",
+    "lon": -52.5783,
+    "lat": -19.7174,
+    "split": "holdout",
+    "land_share": 99.9,
+    "direction": "DESCENDING",
+    "orbit": 170,
+    "scene_counts": [
+      6,
+      6,
+      6,
+      4
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "South_America_006",
+    "continent": "South America",
+    "lon": -57.1741,
+    "lat": 1.0161,
+    "split": "holdout",
+    "land_share": 99.6,
+    "direction": "ASCENDING",
+    "orbit": 90,
+    "scene_counts": [
+      3,
+      2,
+      2,
+      2
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "South_America_008",
+    "continent": "South America",
+    "lon": -57.0313,
+    "lat": -1.8835,
+    "split": "holdout",
+    "land_share": 91.7,
+    "direction": "ASCENDING",
+    "orbit": 90,
+    "scene_counts": [
+      3,
+      2,
+      2,
+      3
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "South_America_010",
+    "continent": "South America",
+    "lon": -46.1914,
+    "lat": -12.5824,
+    "split": "holdout",
+    "land_share": 100,
+    "direction": "DESCENDING",
+    "orbit": 24,
+    "scene_counts": [
+      3,
+      2,
+      3,
+      3
+    ],
+    "coverage_percent": {
+      "month_01": 96.1,
+      "month_04": 96.23,
+      "month_07": 96.83,
+      "month_10": 96.44
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "South_America_013",
+    "continent": "South America",
+    "lon": -65.4388,
+    "lat": 5.5005,
+    "split": "holdout",
+    "land_share": 100.0,
+    "direction": "ASCENDING",
+    "orbit": 33,
+    "scene_counts": [
+      2,
+      3,
+      2,
+      2
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Oceania_000",
+    "continent": "Oceania",
+    "lon": 116.9372,
+    "lat": -30.2789,
+    "split": "holdout",
+    "land_share": 100,
+    "direction": "DESCENDING",
+    "orbit": 163,
+    "scene_counts": [
+      6,
+      4,
+      6,
+      4
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100.0,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Oceania_002",
+    "continent": "Oceania",
+    "lon": 119.6069,
+    "lat": -30.0568,
+    "split": "holdout",
+    "land_share": 100,
+    "direction": "DESCENDING",
+    "orbit": 17,
+    "scene_counts": [
+      2,
+      3,
+      3,
+      2
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Oceania_003",
+    "continent": "Oceania",
+    "lon": 122.0307,
+    "lat": -33.6473,
+    "split": "holdout",
+    "land_share": 99.6,
+    "direction": "DESCENDING",
+    "orbit": 119,
+    "scene_counts": [
+      3,
+      2,
+      3,
+      3
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Oceania_007",
+    "continent": "Oceania",
+    "lon": 174.9823,
+    "lat": -41.2213,
+    "split": "holdout",
+    "land_share": 96.7,
+    "direction": "ASCENDING",
+    "orbit": 154,
+    "scene_counts": [
+      3,
+      2,
+      3,
+      2
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  },
+  {
+    "name": "Oceania_009",
+    "continent": "Oceania",
+    "lon": 133.3,
+    "lat": -28.041,
+    "split": "holdout",
+    "land_share": 100,
+    "direction": "DESCENDING",
+    "orbit": 104,
+    "scene_counts": [
+      3,
+      2,
+      3,
+      3
+    ],
+    "coverage_percent": {
+      "month_01": 100,
+      "month_04": 100,
+      "month_07": 100,
+      "month_10": 100
+    },
+    "status": "accepted"
+  }
+]
